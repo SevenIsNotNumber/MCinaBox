@@ -47,6 +47,8 @@ public class LoadMe {
             setenv("LIBGL_MIPMAP", "3");
             //DISABLE VBO since GL4ES v1.1.4
             setenv("LIBGL_USEVBO", "0");
+            //make mc thinks gl 3.3 is available (for newest snapshot)
+            setenv("LIBGL_VERSION", "3.3"); 
 
             if(args.getSystemEnv() != null){
                 for (Map.Entry<String, String> entry : args.getSystemEnv().entrySet()) {
