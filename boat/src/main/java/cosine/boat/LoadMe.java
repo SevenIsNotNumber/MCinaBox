@@ -48,7 +48,7 @@ public class LoadMe {
             //DISABLE VBO since GL4ES v1.1.4
             setenv("LIBGL_USEVBO", "0");
             //GL_VERSION = 64 bit limit
-            setenv("LIBGL_VERSION", "18446744073709551616.18446744073709551616"); 
+            setenv("LIBGL_VERSION", "340282366920938463463374607431768211455.340282366920938463463374607431768211455"); 
 
             if(args.getSystemEnv() != null){
                 for (Map.Entry<String, String> entry : args.getSystemEnv().entrySet()) {
