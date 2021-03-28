@@ -47,7 +47,7 @@ public class LoadMe {
             setenv("LIBGL_MIPMAP", "3");
             //DISABLE VBO since GL4ES v1.1.4
             setenv("LIBGL_USEVBO", "0");
-            //GL_VERSION = 64 bit limit
+            //GL_VERSION = 128 bit limit
             setenv("LIBGL_VERSION", "340282366920938463463374607431768211455.340282366920938463463374607431768211455"); 
 
             if(args.getSystemEnv() != null){
